@@ -31,3 +31,8 @@ build: [
   ]
 ]
 dev-repo: "git+https://github.com/issuu/ocaml-zmq.git"
+
+pin-depends: [
+  ["eio.1.2" "./libs/eio"]
+  ["eio_main.1.2" "./libs/eio"]
+]
